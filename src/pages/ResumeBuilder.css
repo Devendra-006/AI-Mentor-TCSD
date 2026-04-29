@@ -1,0 +1,148 @@
+.resume-page {
+  padding: 24px 0 48px;
+}
+
+.resume-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.resume-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-section {
+  padding: 0;
+  overflow: hidden;
+}
+
+.form-section.expanded {
+  background: var(--surface);
+}
+
+.section-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  text-align: left;
+  background: var(--surface);
+  transition: background var(--transition);
+}
+
+.section-header:hover {
+  background: var(--surface-hover);
+}
+
+.section-header h3 {
+  margin: 0;
+}
+
+.toggle-icon {
+  font-size: 20px;
+  color: var(--text-secondary);
+}
+
+.section-body {
+  padding: 0 20px 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.entry-block {
+  background: var(--bg);
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
+}
+
+.entry-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.resume-preview {
+  position: sticky;
+  top: calc(var(--navbar-height) + 24px);
+}
+
+.preview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.preview-header h3 {
+  margin: 0;
+}
+
+.preview-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.preview-content {
+  max-height: 70vh;
+  overflow: auto;
+  background: white;
+}
+
+[data-theme="dark"] .preview-content {
+  background: #242422;
+}
+
+.preview-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'Georgia', serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+}
+
+[data-theme="dark"] .preview-content pre {
+  color: #ccc;
+}
+
+.preview-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  text-align: center;
+}
+
+.preview-placeholder p {
+  color: var(--text-muted);
+}
+
+@media (max-width: 1024px) {
+  .resume-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .resume-preview {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

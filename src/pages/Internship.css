@@ -1,0 +1,267 @@
+.internship-page {
+  padding: 24px 0 48px;
+}
+
+.section-desc {
+  color: var(--text-secondary);
+  margin-top: -12px;
+  margin-bottom: 16px;
+}
+
+.internship-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.readiness-card {
+  text-align: center;
+}
+
+.readiness-card h3 {
+  margin-bottom: 8px;
+}
+
+.readiness-desc {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.readiness-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  margin-bottom: 16px;
+}
+
+.ready .readiness-status {
+  background: var(--secondary-light);
+}
+
+.almost .readiness-status {
+  background: var(--warning-light);
+}
+
+.status-icon {
+  font-size: 24px;
+}
+
+.ready .status-icon { color: var(--secondary); }
+.almost .status-icon { color: var(--warning); }
+.notReady .status-icon { color: var(--text-muted); }
+
+.status-text {
+  font-weight: 500;
+}
+
+.checklist {
+  list-style: none;
+}
+
+.checklist li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-muted);
+}
+
+.checklist li.done {
+  color: var(--text);
+}
+
+.checklist li:last-child {
+  border-bottom: none;
+}
+
+.check-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  background: var(--bg);
+}
+
+.checklist li.done .check-icon {
+  background: var(--secondary);
+  color: white;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section h2 {
+  margin-bottom: 16px;
+}
+
+.platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.platform-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.platform-info h4 {
+  margin-bottom: 4px;
+}
+
+.platform-info p {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.visit-btn {
+  margin-top: auto;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tips-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tip-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.tip-num {
+  width: 24px;
+  height: 24px;
+  background: var(--primary-light);
+  color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.tip-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.suggestion-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  padding: 8px 14px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+
+.chip:hover {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.chat-section {
+  padding: 0;
+  overflow: hidden;
+}
+
+.chat-history {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 16px;
+  min-height: 200px;
+}
+
+.chat-item {
+  margin-bottom: 16px;
+}
+
+.chat-q {
+  background: var(--primary-light);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.chat-q strong {
+  color: var(--primary);
+}
+
+.chat-a {
+  background: var(--bg);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.chat-a strong {
+  color: var(--text-secondary);
+}
+
+.chat-loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  border-top: 1px solid var(--border-light);
+}
+
+.chat-input-row .input {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .internship-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .platforms-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .chat-input-row {
+    flex-direction: column;
+  }
+}

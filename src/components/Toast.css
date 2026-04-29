@@ -1,0 +1,29 @@
+.toast-icon {
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.toast-success .toast-icon {
+  background: var(--secondary-light);
+  color: var(--secondary);
+}
+
+.toast-error .toast-icon {
+  background: var(--danger-light);
+  color: var(--danger);
+}
+
+.toast-warning .toast-icon {
+  background: var(--warning-light);
+  color: var(--warning);
+}
+
+.toast-info .toast-icon {
+  background: var(--primary-light);
+  color: var(--primary);
+}

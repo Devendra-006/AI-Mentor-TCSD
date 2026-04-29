@@ -1,0 +1,385 @@
+{
+  "webDev": {
+    "title": "Web Development",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Learn HTML Basics",
+        "description": "Understand tags, forms, tables, and semantic HTML",
+        "resources": [
+          { "label": "MDN HTML Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+          { "label": "FreeCodeCamp HTML", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Master CSS Fundamentals",
+        "description": "Learn box model, flexbox, grid, and responsive design",
+        "resources": [
+          { "label": "CSS Tricks - Flexbox", "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" },
+          { "label": "CSS Grid Garden", "url": "https://cssgridgarden.com/" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Essentials",
+        "description": "Variables, functions, DOM manipulation, async programming",
+        "resources": [
+          { "label": "JavaScript.info", "url": "https://javascript.info/" },
+          { "label": "Eloquent JavaScript", "url": "https://eloquentjavascript.net/" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "React.js Fundamentals",
+        "description": "Components, hooks, state management, routing",
+        "resources": [
+          { "label": "React Official Docs", "url": "https://react.dev/" },
+          { "label": "React Tutorial", "url": "https://react.dev/learn" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Backend Basics - Node.js",
+        "description": "Express.js, REST APIs, middleware",
+        "resources": [
+          { "label": "Node.js Official", "url": "https://nodejs.org/en/learn" },
+          { "label": "Express.js Guide", "url": "https://expressjs.com/en/starter/installing.html" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Database Fundamentals",
+        "description": "SQL basics, MongoDB, connecting to databases",
+        "resources": [
+          { "label": "MongoDB University", "url": "https://learn.mongodb.com/" },
+          { "label": "SQLZoo", "url": "https://sqlzoo.net/" }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Version Control with Git",
+        "description": "Git commands, branching, GitHub workflows",
+        "resources": [
+          { "label": "Git Official Docs", "url": "https://git-scm.com/doc" },
+          { "label": "GitHub Skills", "url": "https://skills.github.com/" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Build Portfolio Projects",
+        "description": "Create 3-5 projects to showcase your skills",
+        "resources": [
+          { "label": "Project Ideas", "url": "https://github.com/florinpop17/app-ideas" }
+        ]
+      }
+    ]
+  },
+  "dataScience": {
+    "title": "Data Science & ML",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Python Programming",
+        "description": "Python basics, data structures, functions",
+        "resources": [
+          { "label": "Python.org Tutorial", "url": "https://docs.python.org/3/tutorial/" },
+          { "label": "Codecademy Python", "url": "https://www.codecademy.com/learn/learn-python-3" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Mathematics for ML",
+        "description": "Linear algebra, calculus, statistics basics",
+        "resources": [
+          { "label": "Khan Academy - Linear Algebra", "url": "https://www.khanacademy.org/math/linear-algebra" },
+          { "label": "3Blue1Brown - Essence of Linear Algebra", "url": "https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Data Analysis with Pandas",
+        "description": "DataFrames, data cleaning, analysis",
+        "resources": [
+          { "label": "Pandas Documentation", "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/" },
+          { "label": "Kaggle Pandas Course", "url": "https://www.kaggle.com/learn/pandas" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Data Visualization",
+        "description": "Matplotlib, Seaborn, creating meaningful charts",
+        "resources": [
+          { "label": "Matplotlib Tutorials", "url": "https://matplotlib.org/stable/tutorials/index.html" },
+          { "label": "Storytelling with Data", "url": "https://www.storytellingwithdata.com/" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Machine Learning Basics",
+        "description": "Supervised learning, regression, classification",
+        "resources": [
+          { "label": "scikit-learn Tutorial", "url": "https://scikit-learn.org/stable/tutorial/index.html" },
+          { "label": "Andrew Ng's ML Course", "url": "https://www.coursera.org/learn/machine-learning" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Deep Learning Introduction",
+        "description": "Neural networks, TensorFlow or PyTorch basics",
+        "resources": [
+          { "label": "fast.ai Courses", "url": "https://fast.ai/" },
+          { "label": "Deep Learning Specialization", "url": "https://www.coursera.org/specializations/deep-learning" }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "SQL for Data Science",
+        "description": "Advanced SQL queries, database operations",
+        "resources": [
+          { "label": "Mode SQL Tutorial", "url": "https://mode.com/sql-tutorial/" },
+          { "label": "LeetCode SQL", "url": "https://leetcode.com/problemset/database/" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Build ML Projects",
+        "description": "Complete 3-5 end-to-end ML projects",
+        "resources": [
+          { "label": "Kaggle Competitions", "url": "https://www.kaggle.com/competitions" },
+          { "label": "ML Project Ideas", "url": "https://github.com/Niraj-Lunavat/Projects-Collection" }
+        ]
+      }
+    ]
+  },
+  "uiux": {
+    "title": "UI/UX Design",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Design Fundamentals",
+        "description": "Color theory, typography, layout principles",
+        "resources": [
+          { "label": "Design Rules", "url": "https://www.designwizard.com/blog/design-trends/design-principles" },
+          { "label": "Typography Guide", "url": "https://typography.com/techniques" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Figma Mastery",
+        "description": "Learn Figma from basics to advanced prototyping",
+        "resources": [
+          { "label": "Figma Official", "url": "https://help.figma.com/" },
+          { "label": "Figma for Beginners", "url": "https://youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "User Research",
+        "description": "User interviews, surveys, personas, user journeys",
+        "resources": [
+          { "label": "UX Collective", "url": "https://uxdesign.cc/" },
+          { "label": "Nielsen Norman Group", "url": "https://www.nngroup.com/" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Wireframing & Prototyping",
+        "description": "Low-fi wireframes, interactive prototypes, user testing",
+        "resources": [
+          { "label": "Balsamiq Tutorial", "url": "https://balsamiq.com/learn/" },
+          { "label": "Proto.io", "url": "https://www.proto.io/" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "UI Design Systems",
+        "description": "Component libraries, design tokens, consistency",
+        "resources": [
+          { "label": "Design System Handbook", "url": "https://www.designsystems.com/" },
+          { "label": "Material Design", "url": "https://m3.material.io/" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Accessibility (A11y)",
+        "description": "WCAG guidelines, inclusive design, screen readers",
+        "resources": [
+          { "label": "WebAIM", "url": "https://webaim.org/" },
+          { "label": "A11y Project", "url": "https://www.a11yproject.com/" }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Motion Design Basics",
+        "description": "Animation principles, micro-interactions",
+        "resources": [
+          { "label": "UX Movement", "url": "https://uxmovement.com/" },
+          { "label": "Principle", "url": "https://principleformac.com/" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Build Design Portfolio",
+        "description": "Create case studies and showcase your work",
+        "resources": [
+          { "label": "Dribbble", "url": "https://dribbble.com/" },
+          { "label": "Behance", "url": "https://www.behance.net/" }
+        ]
+      }
+    ]
+  },
+  "android": {
+    "title": "Android Development",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Kotlin/Java Programming",
+        "description": "Basics of Kotlin or Java for Android",
+        "resources": [
+          { "label": "Kotlin Docs", "url": "https://kotlinlang.org/docs/home.html" },
+          { "label": "JetBrains Academy", "url": "https://hyperskill.org/" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Android Studio Setup",
+        "description": "Set up development environment and emulator",
+        "resources": [
+          { "label": "Android Developers", "url": "https://developer.android.com/studio" },
+          { "label": "Android Studio Guide", "url": "https://developer.android.com/studio/install" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Android UI with Jetpack Compose",
+        "description": "Build modern Android UIs with declarative programming",
+        "resources": [
+          { "label": "Jetpack Compose", "url": "https://developer.android.com/compose" },
+          { "label": "Compose Tutorial", "url": "https://developer.android.com/jetpack/compose/tutorial" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Activity & Fragment Lifecycle",
+        "description": "Understand Android app lifecycle and navigation",
+        "resources": [
+          { "label": "Activity Lifecycle", "url": "https://developer.android.com/guide/components/activities/activity-lifecycle" },
+          { "label": "Navigation Component", "url": "https://developer.android.com/guide/navigation" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Data Storage",
+        "description": "Room database, SharedPreferences, DataStore",
+        "resources": [
+          { "label": "Room Database", "url": "https://developer.android.com/training/data-storage/room" },
+          { "label": "DataStore", "url": "https://developer.android.com/topic/libraries/architecture/datastore" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Networking & APIs",
+        "description": "Retrofit, OkHttp, handling REST APIs",
+        "resources": [
+          { "label": "Retrofit", "url": "https://square.github.io/retrofit/" },
+          { "label": "Networking with Retrofit", "url": "https://developer.android.com/training/basics/network-ops/connecting" }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Dependency Injection",
+        "description": "Hilt, understanding DI patterns",
+        "resources": [
+          { "label": "Hilt", "url": "https://developer.android.com/training/dependency-injection/hilt-android" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Build & Publish App",
+        "description": "Debug, test, and publish to Play Store",
+        "resources": [
+          { "label": "Play Console", "url": "https://play.google.com/console/" },
+          { "label": "App Signing", "url": "https://developer.android.com/studio/publish/app-signing" }
+        ]
+      }
+    ]
+  },
+  "cyber": {
+    "title": "Cybersecurity",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Networking Fundamentals",
+        "description": "TCP/IP, OSI model, common protocols",
+        "resources": [
+          { "label": "Cisco Networking", "url": "https://www.cisco.com/c/en/us/solutions/enterprise/networking.html" },
+          { "label": "Network+ Study Guide", "url": "https://www.comptia.org/training/by-certification/networkplus" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Linux Basics",
+        "description": "Linux commands, file system, scripting",
+        "resources": [
+          { "label": "Linux Journey", "url": "https://linuxjourney.com/" },
+          { "label": "OverTheWire - Bandit", "url": "https://overthewire.org/wargames/bandit/" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Python for Security",
+        "description": "Python scripting for automation and security tools",
+        "resources": [
+          { "label": "Black Hat Python", "url": "https://nostarch.com/blackthon2" },
+          { "label": "Python Sec", "url": "https://python101.pythonanywhere.com/" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Security Fundamentals",
+        "description": "CIA triad, common vulnerabilities, threat models",
+        "resources": [
+          { "label": "Cybrary", "url": "https://www.cybrary.it/" },
+          { "label": "OWASP", "url": "https://owasp.org/" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Web Application Security",
+        "description": "OWASP Top 10, SQL injection, XSS, CSRF",
+        "resources": [
+          { "label": "OWASP Top 10", "url": "https://owasp.org/Top10/" },
+          { "label": "PortSwigger Web Academy", "url": "https://portswigger.net/web-security" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "CTF Practice",
+        "description": "Participate in Capture The Flag competitions",
+        "resources": [
+          { "label": "TryHackMe", "url": "https://tryhackme.com/" },
+          { "label": "HackTheBox", "url": "https://www.hackthebox.com/" }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Cryptography Basics",
+        "description": "Encryption, hashing, digital signatures",
+        "resources": [
+          { "label": "Crypto101", "url": "https://www.crypto101.io/" },
+          { "label": "Khan Academy Cryptography", "url": "https://www.khanacademy.org/computing/computer-science/cryptography" }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Ethical Hacking Basics",
+        "description": "Penetration testing methodology, tools",
+        "resources": [
+          { "label": "Metasploit", "url": "https://www.metasploit.com/" },
+          { "label": "Burp Suite", "url": "https://portswigger.net/burp" }
+        ]
+      }
+    ]
+  }
+}
