@@ -167,6 +167,7 @@ const Settings = () => {
             className="btn btn-danger"
             onClick={() => {
               storage.clearUser();
+              window.dispatchEvent(new Event('auth-change'));
               navigate('/login');
             }}
           >

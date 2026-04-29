@@ -3,12 +3,14 @@ import { apiKeyStorage } from './storage';
 
 let genAI = null;
 let model = null;
+let currentKey = null;
 
 const initAI = () => {
   const API_KEY = apiKeyStorage.get() || import.meta.env.VITE_GEMINI_API_KEY || '';
-  if (API_KEY && !genAI) {
+  if (API_KEY && API_KEY !== currentKey) {
     genAI = new GoogleGenerativeAI(API_KEY);
-    model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    currentKey = API_KEY;
   }
   return !!model;
 };

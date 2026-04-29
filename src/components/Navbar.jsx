@@ -22,11 +22,21 @@ const Navbar = () => {
   }, [darkMode]);
 
   useEffect(() => {
+    const handleAuthChange = () => {
+      setUser(storage.getUser());
+      setShowUserMenu(false);
+    };
+    window.addEventListener('auth-change', handleAuthChange);
+    return () => window.removeEventListener('auth-change', handleAuthChange);
+  }, []);
+
+  useEffect(() => {
     setShowMobileMenu(false);
   }, [location]);
 
   const handleLogout = () => {
     storage.clearUser();
+    window.dispatchEvent(new Event('auth-change'));
     navigate('/login');
   };
 

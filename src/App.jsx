@@ -1,3 +1,4 @@
+import { useState, useEffect, useCallback } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Login from './pages/Login';
@@ -17,7 +18,17 @@ import './styles/global.css';
 import './App.css';
 
 function App() {
-  const user = storage.getUser();
+  const [user, setUser] = useState(() => storage.getUser());
+
+  const refreshAuth = useCallback(() => {
+    setUser(storage.getUser());
+  }, []);
+
+  useEffect(() => {
+    // Listen for auth changes (login/logout) from any component
+    window.addEventListener('auth-change', refreshAuth);
+    return () => window.removeEventListener('auth-change', refreshAuth);
+  }, [refreshAuth]);
 
   return (
     <ToastProvider>

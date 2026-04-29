@@ -83,6 +83,7 @@ const Login = () => {
         storage.setUser(user);
         i18n.changeLanguage(user.language || 'en');
         success('Welcome back!');
+        window.dispatchEvent(new Event('auth-change'));
         navigate('/dashboard');
       } else {
         error('Invalid email or password');
@@ -113,6 +114,7 @@ const Login = () => {
       storage.setUser(newUser);
       i18n.changeLanguage(newUser.language);
       success('Account created successfully!');
+      window.dispatchEvent(new Event('auth-change'));
       navigate('/domains');
     }
     
@@ -142,6 +144,7 @@ const Login = () => {
     storage.setUser(demoUser);
     i18n.changeLanguage(demoUser.language);
     success('Welcome to Demo Account!');
+    window.dispatchEvent(new Event('auth-change'));
     navigate('/dashboard');
   };
 
